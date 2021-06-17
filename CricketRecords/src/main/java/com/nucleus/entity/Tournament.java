@@ -21,7 +21,7 @@ public class Tournament {
 	@OneToMany
 	private List<Match> matches;
 	
-	private int numberOfTeams;
+	private Integer numberOfTeams;
 	
 	private Team tournamentWinner;
 	
@@ -51,11 +51,11 @@ public class Tournament {
 		this.matches = matches;
 	}
 
-	public int getNumberOfTeams() {
+	public Integer getNumberOfTeams() {
 		return numberOfTeams;
 	}
 
-	public void setNumberOfTeams(int numberOfTeams) {
+	public void setNumberOfTeams(Integer numberOfTeams) {
 		this.numberOfTeams = numberOfTeams;
 	}
 
